@@ -3,7 +3,8 @@ phases:
   install:
     runtime-versions:
       nodejs: latest
-  commands:
+    commands:
+    - echo "Install completed"
 # If needed, you can add commands for dependency installation
   build:
     commands:
